@@ -1,509 +1,144 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Luong Thanh Dat - front-end development - MeetDev</title>
-<meta name="description" content="Luong Thanh Dat - front-end development - Build career profile with free cv resume templates on MeetDev - Mạng Xã Hội Lập Trình Viên"/>
-<meta name="keywords" content="HTML 5, CSS, Bootstrap, free online cv resume templates"/>
-<meta property="og:url" content="http://meetdev.com/luongthanhdat/cv" />
-<meta property="og:image" content="http://meetdev.com/esdata/images/2016/03/thumb_luongthanhdat-375297-1458910649.png" />
-<meta property="og:title" content="Luong Thanh Dat - front-end development" />
-<meta property="og:description" content="View Luong Thanh Dat - front-end development - Build career profile with free cv resume templates on MeetDev - Mạng Xã Hội Lập Trình Viên" />
-<link rel="shortcut icon" href="http://meetdev.com/assets/img/favicon.ico" />
-<link rel="stylesheet" type="text/css" href="http://meetdev.com/assets/plugins/bootstrap_modal/css/bootstrap.css" />
-<link rel="stylesheet" href="http://meetdev.com/assets/plugins/font-awesome/css/font-awesome.min.css" />
-<link rel="stylesheet" href="http://meetdev.com/assets/plugins/font-awesome/css/font-awesome.min.css" />
-
-<link type="text/css" href="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/css/style.css" rel="stylesheet"/>
-<script>
-						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-						  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-							  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-							  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-							
-							  ga('create', 'UA-45860032-18', 'auto');
-							  ga('send', 'pageview');
-						
-						</script>
-<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
-<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-8699169138542850',enable_page_level_ads: true});</script>
-
-
-
-<meta name='msvalidate.01' content='06CC78687A5C66458F0C95C34BED1AF6' /><script type="text/javascript"> var url = "http://meetdev.com/"; </script>
-<script src="http://meetdev.com/assets/js/jquery-1.11.1.min.js"></script>
-<script src="http://meetdev.com/assets/plugins/bootstrap_modal/js/bootstrap.js"></script>
-<script src="http://meetdev.com/assets/js/myscript.js"></script>
-
-<style type="text/css">
-a{
-    text-decoration: none !important;
-    cursor: pointer;
-    display: inline-block;
-}
-.button-group-cv{
-    position: fixed;
-    right: 0px;
-    top:0px;
-    z-index: 100;
-    background: rgba(204,204,204,0.6);
-    height: 100%;
-}
-.button-group-cv span{
-    display: block;
-    padding: 10px 10px;
-    position: relative;
-}
-.button-group-cv span > a:hover{
-    opacity: 0.6;
-}
-.display-inline-button{
-    width: 60px;
-}
-.br-cv-page{
-    background-image: url('http://meetdev.com/assets/img/br_cv.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-}
-.screen-locker{
-    text-align: center; 
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: white;
-    transparent: 50%;
-    z-index: 2000;
-}
-.screen-locker-content{
-    position: fixed;
-    top: 50%;
-    z-index: 999;
-    margin-top: -104px;
-    width: 100%;
-    text-align: center;
-}
-.screen-locker-content img{
-    vertical-align: middle;
-}
-.cleared{
-    display: block;
-    clear: both;
-    float: none;
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-size: 0;
-    height: 0;
-    overflow: hidden;
-}
-/*
-.br-tooltip-default{
-    background: url('http://meetdev.com/assets/img/default-cv-tooltip.png') no-repeat;
-    height: 75px;
-    width: 200px;
-    position: absolute;
-    top: 10px;
-    left: -190px;
-    z-index: 200;
-    background-size: cover;
-    padding: 15px 25px 15px 15px;
-    color: #FFF;
-    font-size: 15px;
-}
-
-.rm-tooltip{
-    position: absolute;
-    top: -5px;
-    left: -188px;
-    z-index: 250;
-    color: #6abda1;
-    font-size: 16px;
-    cursor: pointer;
-}
-*/
-.group-social-popup li{
-    float: left;
-    display: inline-block;
-    margin-right: 5px;
-}
-.group-social-popup li.social-popup-pd{
-    padding-top: 2px;
-}
-.title-download-cv{
-    font-weight: bold;
-    color: #0f4980;
-    font-size: 14px;
-}
-.link_apply_job{
-    display: block;
-    margin-bottom: 2px;
-}
-.link_apply_job a{
-    color: #0bb89e;
-    text-decoration: underline;
-}
-.full_line_continute{
-    margin: 35px 0px 30px 0px;
-    text-align: center;
-    color: #0bb89e;
-}
-.full_line_continute::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background: #0bb89e;
-    left: 0px;
-}
-.full_line_continute span{
-    display: inline-block;
-    background: #FFF;
-    padding: 5px 15px;
-    margin-top: -12px;
-    position: relative;
-    z-index: 6;
-    font-size: 13px;
-    font-weight: bold;
-}
-.modal{
-    font-family: Arial;
-}
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<body class="w3-light-grey">
 
-        <!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <!-- Share tweet-->
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <!-- Share linkedin-->
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-        <!-- Share pinterest-->
-        <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
-</head>    
-	<body class="br-cv-page">
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-		<div id="cv_view_wiget" class="button-group-cv">
-                            <span><a title="View share on MeetDev - Software Mạng Xã Hội Lập Trình Viên" href="http://meetdev.com/share/luongthanhdat"><img style="border-radius: 50%; border: 2px solid #f6f8f8;" class="display-inline-button" src="http://meetdev.com/esdata/images/2016/03/thumb_luongthanhdat-375297-1458910649.png" /></a></span>
-                
-                                               
-                <span><a id="export_popup" name-cv="creative-cv-template-14-simple-and-awesome-in-green" title="Download CV/Resume in PDF" url="luongthanhdat" href="javascript: void(0)"><img class="display-inline-button" src="http://meetdev.com/assets/img/export-cirle.png" /></a></span>
-                                                    
-                                <span style="position: absolute;  bottom: 0;  left: 0;"><a title="Share your CV/Resume on facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://meetdev.com/luongthanhdat/cv"><img class="display-inline-button" src="http://meetdev.com/assets/img/fb-circle.png" /></a></span>
-                <span style="position: absolute;  bottom: 80px;  left: 0;"><a title="Share your CV/Resume on Google +" target="_blank" href="https://plus.google.com/share?url=http://meetdev.com/luongthanhdat/cv"><img class="display-inline-button" src="http://meetdev.com/assets/img/icon-google.png" /></a></span>
-                <span style="position: absolute;  bottom: 160px;  left: 0;"><a title="Update your Resume"  href="http://meetdev.com/luongthanhdat" target="_blank" ><img class="display-inline-button" src="http://meetdev.com/assets/img/edit-resume.png" /></a></span>
-                        </div>
-	    <div class="cleared"></div>
-        <div id="fullpage">
-	<div id="page1">
-    	<div class="header">
-        	<h1 class="fullname">Luong Thanh Dat</h1>
-            <h1 class="title-job">front-end development</h1>
-            <div class="av">
-            	<div class="br-av"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/elament_03.png" alt="br-av" /></div>
-                <div class="avatar"><img src="http://meetdev.com/esdata/images/2016/03/thumb_luongthanhdat-375297-1458910649.png" style="width:152px; height:152px;" alt="Luong Thanh Dat" /></div>
-            </div>
-                        <div class="profile">
-            	<div class="title-profile">About me</div>
-                <div class="about"><br />
-At present, I am 23 years old. I am a person who can work in a pressure environment, always want to help and share with everyone, my living maxim is "learn, learn, study forever" I work for me to live with my passion and  pay for what I do .</div>
-            </div>
-                        <div class="cleared"></div>
-            <div class="information">
-            	<ul>
-                                                        	<li>
-                    	<div class="icon-contact"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/mobilr.png" style="width:25px" alt="mobile" /></div>
-                        <div class="text-contact">(+84)0938567918</div>
-                        <div class="cleared"></div>
-                    </li>
-                                                                                                    <li>
-                    	<div class="icon-contact"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/birthday.png" style="width:25px" alt="birthday" /></div>
-                        <div class="text-contact">07/08/1994</div>
-                        <div class="cleared"></div>
-                    </li>
-                                                            <li>
-                    	<div class="icon-contact"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/add.png" style="width:25px" alt="add" /></div>
-                        <div class="text-contact">Dong Nai</div>
-                        <div class="cleared"></div>
-                    </li>
-                                                            <li>
-                    	<div class="icon-contact"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/email.png" style="width:25px" alt="email" /></div>
-                        <div class="text-contact">thanhdatluong1994@gmail.com</div>
-                        <div class="cleared"></div>
-                    </li>
-                                        <div class="cleared"></div>
-                </ul>
-            </div>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
         </div>
-        
-        <div class="content">
-        	<!--education-->
-            
-        	<div class="block">
-            	<div class="title" style="background:url(http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/line-title.png) bottom left no-repeat;">
-                	<div class="center-title">EDUCATION</div>
-                </div>
-                                <div class="content-block">
-                	                                        <div class="box-one" >
-                    	<div class="left-block">
-                    		<h3 class="title-box">Training Course</h3>
-                            <div class="text-box">jQuery, html, css, javacript, at dash.generalassemb.ly</div>
-                        </div>
-                        <div class="right-block">2016 - 2016</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                                                <div class="box-one" >
-                    	<div class="left-block">
-                    		<h3 class="title-box">Training Course</h3>
-                            <div class="text-box">jQuery, html, css, javacript, at www.codecademy.com</div>
-                        </div>
-                        <div class="right-block">2015 - 2016</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                                                <div class="box-one" >
-                    	<div class="left-block">
-                    		<h3 class="title-box">Training Course</h3>
-                            <div class="text-box"> HTML, CSS at myclass.vn</div>
-                        </div>
-                        <div class="right-block">2015 - 2015</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                                                <div class="box-one"  style="padding-bottom: 0px;">
-                    	<div class="left-block">
-                    		<h3 class="title-box">College</h3>
-                            <div class="text-box">Information Technology at Vinatex College</div>
-                        </div>
-                        <div class="right-block">2012 - 2015</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                        </div>
-                            </div>
-            
-            <!--end education-->
-            
-            <!--exp-->
-            
-            <div class="block">
-            	<div class="title" style="background:url(http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/line-title.png) bottom left no-repeat;">
-                	<div class="center-title">EXPERIENCE</div>
-                </div>
-                                <div class="content-block">
-                	                                        <div class="box-one" >
-                    	<div class="left-block">
-                    		<h3 class="title-box">chemtrovina of samsung</h3>
-                            <div class="title-box" style="text-transform:none;"> maintenance machinery</div>
-                                                    </div>
-                        <div class="right-block">2016 - 2017</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                                                <div class="box-one"  style="padding-bottom: 0px;">
-                    	<div class="left-block">
-                    		<h3 class="title-box">Hải thảo computer</h3>
-                            <div class="title-box" style="text-transform:none;">Computer Hardware Engineering</div>
-                            <div class="text-box">maintenance technician computer</div>                        </div>
-                        <div class="right-block">2015 - 2015</div>
-                        <div class="cleared"></div>
-                    </div>
-                                                        </div>
-                            </div>
-            
-            <!--end exp-->
-            <!--achie-->
-                        <!--end achie-->
-            <!--Soft-->
-            
-            <div class="block">
-            	<div class="title" style="background:url(http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/line-title.png) bottom left no-repeat;">
-                	<div class="center-title">SOFT SKILLS</div>
-                </div>
-                                <div class="content-block">
-                	<div class="box-one" style="padding-bottom: 0px;">
-                                                            	<span>Organizing</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Positive Attitude</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Work well under pressure</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Creative, Innovative</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Motivate</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Adaptability</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Teamwork</span>
-                        <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</span>                                                                                	<span>Critical Observation</span>
-                                                                                    </div>
-                </div>
-                            </div>
-            
-            <!--end Soft-->
-            <!--working skills-->
-            
-            <div class="block">
-            	<div class="title" style="background:url(http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/line-title.png) bottom left no-repeat;">
-                	<div class="center-title">WORKING SKILLS</div>
-                </div>
-                                <div class="content-block">
-					<ul>
-                                                                                	<li>
-                        	<div class="icon-working"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/buless.png" alt="bulles" /></div>
-                            <h2 class="text-working">HTML 5</h2>
-                            <div class="cleared"></div>
-                        </li>
-                                                                                                                        	<li>
-                        	<div class="icon-working"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/buless.png" alt="bulles" /></div>
-                            <h2 class="text-working">CSS</h2>
-                            <div class="cleared"></div>
-                        </li>
-                                                                                                                        	<li>
-                        	<div class="icon-working"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/buless.png" alt="bulles" /></div>
-                            <h2 class="text-working">Bootstrap</h2>
-                            <div class="cleared"></div>
-                        </li>
-                                                                                    <div class="cleared"></div>
-                    </ul>
-                </div>
-                            </div>
-            
-            <!--end working skills-->
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
         </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
     </div>
     
-    <div id="page2">
-    	
-                <div class="content">
-        	<!--PROJECT-->
-            <div class="block">
-            	<div class="title" style="background:url(http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/line-title.png) bottom left no-repeat;">
-                	<div class="center-title">PROJECT</div>
-                </div>
-                <div class="content-block">
-                                                	<div class="box-one-project" >
-                    	<h3 class="name-project">Trang tin nhà đất</h3>
-                        <div class="contribute">Contribute as thành đạt</div>
-                        <div class="pj">
-                        	<div class="br-pj"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/image-project.png" alt="br-pj" /></div>
-                            <div class="img-pj"><img src="http://meetdev.com/esdata/images/2017/10/thumb_luongthanhdat-34814-1509094569.png" style="width:142px; height:142px;" alt="Trang tin nhà đất" /></div>
-                        </div>
-                        <div class="short">The website is designed to connect those who want to use high rise apartment building with those who need to sell it</div>                    </div>
-                                                	<div class="box-one-project" >
-                    	<h3 class="name-project">Thời trang và cuộc sống</h3>
-                        <div class="contribute">Contribute as thành đạt</div>
-                        <div class="pj">
-                        	<div class="br-pj"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/image-project.png" alt="br-pj" /></div>
-                            <div class="img-pj"><img src="http://meetdev.com/esdata/images/2017/10/thumb_luongthanhdat-39906-1509093991.png" style="width:142px; height:142px;" alt="Thời trang và cuộc sống" /></div>
-                        </div>
-                        <div class="short">The website is designed to serve the needs of everyone, providing convenient and convenient services for customers.</div>                    </div>
-                                                	<div class="box-one-project"  style="border-bottom: none;">
-                    	<h3 class="name-project">Thế giới điện thoại</h3>
-                        <div class="contribute">Contribute as thành đạt</div>
-                        <div class="pj">
-                        	<div class="br-pj"><img src="http://meetdev.com/esdata/vilancer_cv/creative-cv-template-14-simple-and-awesome-in-green/images/image-project.png" alt="br-pj" /></div>
-                            <div class="img-pj"><img src="http://meetdev.com/esdata/images/2017/10/thumb_luongthanhdat-08547-1509092414.png" style="width:142px; height:142px;" alt="Thế giới điện thoại" /></div>
-                        </div>
-                        <div class="short">The website is designed to meet the increasing demand of technological equipment of the society, bringing the most convenient and practical benefits to life.</div>                    </div>
-                                </div>
-            </div>
-            <!--end PROJECT-->
-        </div>
-                <div class="border-top"></div>
-        <div class="header">
-            <div class="talent">
-            	
-              
-            </div>
-            <div class="cleared"></div>
-        </div>
-    </div>
-</div>        <script type="text/javascript">
-            $(document).ready(function()
-            {
-                $('#set-default').click(function(e)
-                {
-                    var img_loading = "http://meetdev.com/assets/img/loading-popup.gif";
-                    $('body').append('<div id="screen-locker" class="screen-locker">' +
-                                            '<div class="screen-locker-content"><img style="display: inline" alt="loadding" src="' + img_loading + '">&nbsp;Processing...</div>' +										
-                                    '</div>');
-                    var tpl_id = $(this).attr('id-default-cv');
-                    $.ajax({
-                    type: "POST",
-                    url: url + 'ajax/defaultcv',
-                    data: {"templatename": tpl_id },
-                    dataType: "text",
-                    cache: false,
-                    success:
-                         function(data)
-                         {
-                            if (data == true)
-                            {
-                                var html = '';
-                                html += '<a id="export_popup" title="Download CV/Resume in PDF" href="javascript: void(0)"><img class="display-inline-button" src="http://meetdev.com/assets/img/export-cirle.png" /></a>';
-                                $('#default-cv').html(html);
-                                   
-                                $("#screen-locker").remove();
-                                $('#viModal').modal('show');
-                            }
-                         }
-                    });
-            	});
-                
-                $('#export_popup').click(function(){
-                    $('#viModal').modal('show');
-                    return false;
-                });
-                $(document).on('click','#export_popup',function()
-                {
-                    $('#viModal').modal('show');
-                    return false;
-                });
-                $('.rm-tooltip').click(function(){
-                    $(this).hide(100);
-                    $('.br-tooltip-default').hide(100);
-                });
-            });
-        </script>
-        <!-- MODAL -->
-        <div class="modal fade" id="viModal" tabindex="-1" role="dialog" aria-labelledby="viModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="viModalLabel"><div class="title-download-cv">Now you can apply job by profile URL</div></h4>
-                    </div>
-                    <div class="modal-body" id="viModalBody">
-                        <div class="popover_download">
-                            <span style="font-size:23px;" class="link_apply_job"><a target="_blank" href="http://meetdev.com/luongthanhdat">http://meetdev.com/luongthanhdat</a></span>
-                            <span class="link_apply_job"><a target="_blank" href="http://meetdev.com/luongthanhdat/cv">http://meetdev.com/luongthanhdat/cv</a></span>
-                            <div class="full_line_continute"><span>Continue</span></div>
-                            <div class="row">
-                                <div class="col-md-8" style="width: 66.66666667%;float: left">
-                                    <p style="color: #9e9797; font-size: 13px;margin-bottom: 10px;font-weight: bold">Tell your friends</p>
-                                    <div class="clearfix">
-                                        <ul class="group-social-popup">
-                                            <li><div class="g-plusone" data-annotation="none"></div></li>
-                                            <li class="social-popup-pd"><script type="IN/Share"></script></li>
-                                            <li class="social-popup-pd"><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" style="width: 33.33333333%;float: left">
-                                    <a id="export" name-cv="creative-cv-template-14-simple-and-awesome-in-green" url="luongthanhdat" title="Download CV/Resume in PDF" href="http://meetdev.com/luongthanhdat/exportcv/creative-cv-template-14-simple-and-awesome-in-green">
-                                    <img src="http://meetdev.com/assets/img/download-pdf.jpg" alt="Download CV/Resume in PDF" />
-                                    </a>
-                                </div>
-                                <div style="clear: both;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer hidden" id="viModalFooter"></div>
-                </div>
-            </div>
-        </div>
-        <!-- END OF MODAL -->
-        
-    </body>
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
 </html>
